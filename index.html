@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>NavidApp</title>
+    <link rel="icon" href="images/logo_icon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <!-- Pinyon Script -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&family=Pinyon+Script&display=swap" rel="stylesheet">
+    
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+</head>
+<body>
+    <!-- Snow effect layer -->
+    <div class="snow-container">
+            <div id="layer1" class="snowflake"></div>
+            <div id="layer2" class="snowflake"></div>
+    </div>
+
+
+    <div id="hero" class="container-fluid min-vh-100">
+        <div class="row text-center justify-content-center">
+            <div class="tree col-12 overflow-hidden">
+                <img  class="treeImg" src="images/Tree.png" alt="Image of a Christmas Tree drawed in green lines">
+            </div>
+            
+            <div class=" message col-12 ">
+                <p class="pinyon-script-regular display-4">Faltan </p>
+            </div>
+            
+            <div id="daysCount"    class="col-min col-auto p-0 d-flex  pinyon-script-regular-lg justify-content-end">00</div>
+            <div id="days"         class="        col-auto     d-flex align-items-center pinyon-script-regular    justify-content-start">dias</div>
+            <div id="hoursCount"   class="col-min col-auto p-0 d-flex  pinyon-script-regular-lg justify-content-end">00</div>
+            <div id="hours"        class="        col-auto     d-flex align-items-center pinyon-script-regular    justify-content-start">horas</div>
+
+            <div class="w-100 d-md-none"></div>
+
+            <div id="minutesCount" class="col-min col-auto  p-0 d-flex pinyon-script-regular-lg justify-content-end">00</div>
+            <div id="minutes"      class="        col-auto   d-flex align-items-center pinyon-script-regular    justify-content-start">mins</div>
+            <div id="secondsCount" class="col-min col-auto  p-0 d-flex pinyon-script-regular-lg justify-content-end">00</div>
+            <div id="seconds"      class="        col-auto   d-flex align-items-center pinyon-script-regular    justify-content-start">segs</div>
+
+            <div class="col-12" >
+                <p class="pinyon-script-regular display">para</p>
+                <p class="pinyon-script-regular-xl display-1">Navidad</p>
+            </div>
+        </div>
+
+       <!--  
+        <audio  src="https://www.thewavsite.com/Christmas/All%20I%20Want%20for%20Christmas%20for%20Is%20You%20-%20Mariah%20Carey.wav" ></audio> 
+        <audio  src="https://www.thewavsite.com/Christmas/A%20Holly%20Jolly%20Christmas%20-%20Burl%20Ives.wav" ></audio>
+        -->
+        <audio autoplay src="https://www.thewavsite.com/Christmas/All%20I%20Want%20for%20Christmas%20for%20Is%20You%20-%20Mariah%20Carey.wav" ></audio> 
+    
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+</body>
+</html>
