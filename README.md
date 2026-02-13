@@ -1,8 +1,9 @@
 # 🎄 NavidApp | Christmas Countdown
 
-A Christmas countdown timer responsive webPage built with HTML5, CSS3 (Bootstrap 5), and Vanilla JavaScript. It features a simple and vintage style with animations.
+A Christmas countdown timer responsive webPage with a vintage look, built with HTML5, CSS3 (Bootstrap 5), and Vanilla JavaScript. It features a simple and vintage style with animations.
 Built with a focus on smooth animations, mobile-first design, and optimized asset delivery. Fully responsive Christmas countdown experience.
 
+<img width="1229" height="900" alt="NavidApp" src="https://github.com/user-attachments/assets/a5388847-93f3-468c-9130-07993eee3d75" />
 
 ## 🚀 Live Demo
 Check out the live project here: [https://carlosorozcom.github.io/NavidApp/](https://carlosorozcom.github.io/NavidApp/)
